@@ -41,6 +41,7 @@ import routerCommon from "./app/routes/common/index.js"
 
 app.use("/v1/", routerCommon.signup)
 app.use("/v1/", routerCommon.login)
+app.use("/v1/", routerCommon.dashboardGrid)
 
 
 const httpServer = createServer(app);

@@ -53,4 +53,7 @@ db.Sequelize = Sequelize;
 import m_users from './m_users.js';
 db.m_users = m_users(sequelize, Sequelize)
 
+import m_grids from './m_grids.js';
+db.m_grids = m_grids(sequelize, Sequelize)
+
 export default { db }

@@ -18,7 +18,8 @@ export default (sequelize, DataTypes) => {
     last_latitude: DataTypes.DECIMAL,
     last_longitude: DataTypes.DECIMAL,
     status: DataTypes.STRING,
-    role: DataTypes.STRING
+    role: DataTypes.STRING,
+    token: DataTypes.STRING
   }, {});
 
   return m_users;
